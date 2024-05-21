@@ -1,0 +1,35 @@
+/* Basic styling */
+body {
+         font-family: 'Times New Roman', Times, serif;
+            background-image: url('/IMG_20240505_133715.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+  
+}
+header {
+    color: black;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+
+}
+
+main {
+    max-width: 550px;
+    margin: 8rem auto;
+    padding: 0.5rem;
+    background-color: rgba(196, 164, 132, 0.5);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}

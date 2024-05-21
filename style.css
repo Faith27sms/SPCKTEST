@@ -1,0 +1,40 @@
+body {
+  background-image: url('/images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Times New Roman', Times, serif;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(240, 240, 240, 0.7); 
+  backdrop-filter: blur(5px); 
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+#songs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.song {
+  margin: 20px;
+  padding: 0px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+main {
+    max-width: 1000px;
+    margin: 8rem auto;
+    padding: 0.5rem;
+    background-color: rgba(196, 164, 132, 0.5);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
